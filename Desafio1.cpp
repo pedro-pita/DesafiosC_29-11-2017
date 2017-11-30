@@ -1,3 +1,4 @@
+//com apontadores
 #include <string.h>
 #include <locale.h>
 #include <stdlib.h>
