@@ -1,5 +1,5 @@
 //sem apontadores
-/*#include <string.h>
+#include <string.h>
 #include <locale.h>
 #include <stdlib.h>
 int main(){
@@ -13,7 +13,7 @@ int main(){
 		printf("%d",n1);
 	else
 		printf("%d",n2);
-}*/
+}
 
 // com apontadores
 #include <string.h>

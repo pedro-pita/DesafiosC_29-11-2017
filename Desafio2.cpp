@@ -1,5 +1,5 @@
 //sem apontadores
-/*#include <string.h>
+#include <string.h>
 #include <locale.h>
 #include <stdlib.h>
 int main(){
@@ -11,7 +11,6 @@ int main(){
 	else
 		printf("O endereço do segundo numero é maior do que o enderenço do primeiro numero");
 }
-*/
 
 //com apontadores
 #include <string.h>

@@ -1,5 +1,5 @@
 //sem apontadores
-/*#include <string.h>
+#include <string.h>
 #include <locale.h>
 #include <stdlib.h>
 void troca(int &a, int &b){
@@ -13,7 +13,7 @@ int main(){
 	printf("Antes: A=%d e B=%d\n",a,b);
 	troca(a,b);
 	printf("Depois: A=%d e B=%d\n",a,b);
-}*/
+}
 
 //com apontadores
 #include <string.h>
