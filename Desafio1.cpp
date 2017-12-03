@@ -16,3 +16,30 @@ int main(){
 	*aChar='S';
 	printf("\nDepois:\nInteiro=%d\nFloat=%f\nChar=%c\n",nInt,nFloat,cChar);	
 }
+
+//Solução professor
+#include <string.h>
+#include <locale.h>
+#include <stdlib.h>
+int main(){
+	int x = 10;
+	float f = 12.5;
+	char c = 'd';
+	int *xp;
+	float *fp;
+	char *cp;
+	
+	xp = &x;
+	fp = &f;
+	cp = &c;
+	
+	printf("A->x=%d\n",x);// 10
+	printf("A->f=%.2f\n",f);// 10
+	printf("A->c=%c\n",c);// 10
+	*xp = 20;
+	*fp = 24.45;
+	*cp = 'g';
+	printf("D->x=%d\n",x);// 10
+	printf("D->f=%.2f\n",f);// 10
+	printf("D->c=%c\n",c);// 10
+}

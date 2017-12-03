@@ -27,3 +27,30 @@ int main(){
 		printf("O endereço do segundo numero é maior do que o enderenço do primeiro numero");
 }
 
+//Solução professor
+//sem apontadores
+#include <string.h>
+#include <locale.h>
+#include <stdlib.h>
+int main(){
+	int x2,x3;
+	printf("x2=%d  x3=%d\n",&x2,&x3);
+	if(&x2 > &x3)
+		printf("%d\n",&x2);
+	else
+		printf("%d\n",&x3);
+}
+
+//com apontadores
+#include <string.h>
+#include <locale.h>
+#include <stdlib.h>
+int main(){
+	int x2_,x3_;
+	int *x2p = &x2_,*x3p=&x3_;
+	printf("x2=%d  x3=%d\n",&x2_,&x3_);
+	if(x2p > x3p)
+		printf("%d\n",&x2_);
+	else
+		printf("%d\n",&x3_);	
+}
